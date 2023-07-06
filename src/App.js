@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Presente from './Presente';
 import Confetti from 'react-confetti';
+import GoogleAnalytics from './GoogleAnalytics';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           />
           <h1>Feliz aniversario Menina do brécho</h1>
         <Presente />
+        <GoogleAnalytics />
         <p>clique no presente acima </p>
       </header>
     </div>
