@@ -1,14 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import Presente from './Presente';
 import Confetti from 'react-confetti';
 
 
 function App() {
-  useEffect(() => {
-    const audio = new Audio('./audio.mp3');
-    audio.play();
-  }, []);
+
 
   return (
     <div className="App">
