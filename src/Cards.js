@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
 import Card from './Card';
-import ex from './ex.jpg';
-import bussines from './bussinesgirl.jpg';
-import mae from './mae.jpg';
+import ex from './amalia2.jpeg';
+import bussines from './amalia1.jpeg';
 const Cards = () => {
   
   return (
     <div className='CARDSBACK'>
-      <h1>Por isso você vai receber 3 parabéns diferentes</h1>
-      <Card nome='EX namorada' id={1} foto={ex} />
-      <Card nome='Empreendedora' id={2} foto={bussines} />
-      <Card nome='Mãe' id={3} foto={mae} />
+      <h1>Por isso você vai receber 2 parabéns diferentes</h1>
+      <Card nome='Chefa' id={1} foto={ex} />
+      <Card nome='Amiga' id={2} foto={bussines} />
     </div>
   );
 };
