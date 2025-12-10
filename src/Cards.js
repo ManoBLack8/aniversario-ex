@@ -1,15 +1,22 @@
 import React from 'react';
 import './App.css';
 import Card from './Card';
-import ex from './amalia2.jpeg';
-import bussines from './amalia1.jpeg';
+import barzinho from './barzinho.jpeg';
+import dorock from './dorock.jpeg';
+import carnaval from './carnaval.jpeg';
+import trioternura from './trio ternura.jpeg';
+import video from './video.mp4';
+
 const Cards = () => {
   
   return (
     <div className='CARDSBACK'>
-      <h1>Por isso você vai receber 2 parabéns diferentes</h1>
-      <Card nome='Chefa' id={1} foto={ex} />
-      <Card nome='Amiga' id={2} foto={bussines} />
+      <h1>Você merece receber 4 parabéns diferentes</h1>
+      <Card nome='Amiga' id={1} foto={barzinho} />
+      <Card nome='Do Rock 🤘' id={2} foto={dorock} />
+      <Card nome='Carnavalesco' id={3} foto={carnaval} />
+      <Card nome='Trio parada dura' id={4} foto={trioternura} />
+      <Card nome='Como é ter uma amigo tão legal quanto eu?' id={5} foto={video} />
     </div>
   );
 };

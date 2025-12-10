@@ -15,7 +15,7 @@ function App() {
             height={window.innerHeight}
             numberOfPieces={100}
           />
-          <h1>Feliz aniversario amaislindasauro</h1>
+          <h1>Feliz aniversario Lorena, Verão, Blue e Etc..</h1>
         <Presente />
         <p>clique no presente acima </p>
       </header>

@@ -13,8 +13,7 @@ const Interior = () => {
       <div>
           <div>
             <h1>
-              Eu estava pensando, como dar um parabéns a uma pessoa que merece não só
-              palmas como todo o Tocantins?
+              Não sou artista e sim desenvolvedor, então segue aqui meu Parabéns na minha forma de arte.
             </h1>
             <button className='btn' onClick={handleProximo}>Próximo</button>
           </div>
